@@ -105,6 +105,19 @@ body {
             box-shadow: none;
   }
 
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #faa294;
+  border-color: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #faa29469;
+    box-shadow: 0 0 0 0.2rem #faa29469;
+}
+
 #contactLeft{
     padding-right: 0px;
 }
