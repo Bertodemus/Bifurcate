@@ -73,6 +73,14 @@ body {
     padding-left: 0px;
 }
 
+#aboutLeft{
+    padding-right: 0px;
+}
+
+#aboutRight{
+    padding-left: 0px;
+}
+
 @media only screen and (max-width: 767px) {
 
     #aboutLeft{
