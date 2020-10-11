@@ -5,7 +5,7 @@ body {
 }
 
 .locr {
-    margin-top: -200px;
+    margin-top: -160px;
     max-width: 800px;
     /* min-width: 750px; */
 }
@@ -30,7 +30,7 @@ body {
 } */
 
 .card-title, .card-header {
-    color: firebrick;
+    color: black;
     height: 2.3rem;
     background-color: #dd9e9385;
 }
@@ -63,4 +63,25 @@ body {
 .btn-warning  h4 {
     margin: 0 0 0 0;
     color: #fff;
+}
+
+#aboutLeft{
+    padding-right: 0px;
+}
+
+#aboutRight{
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #aboutLeft{
+        padding-right: 15px;
+    }
+    
+    #aboutRight{
+        padding-left: 15px;
+    }
+
+
 }
