@@ -73,13 +73,13 @@ body {
   
   .btn-warning:hover {
     color: #fff;
-    background-color: #d69422;
+    background-color:#dda026;
     border-color: none;
   }
   
   .btn-warning:focus, .btn-warning.focus {
     color: #fff;
-    background-color: #ed9d2b;
+    background-color:#dda026;
     border-color: none;
     -webkit-box-shadow:none;
             box-shadow: none;
