@@ -20,6 +20,8 @@
             </div>
         </div>
         
+    <div class="accordion" id="accordion1">
+
         <div class="row locr ml-auto mr-auto">
             <div class="col-12">
                 
@@ -27,7 +29,7 @@
             
                 <div class="row">
                     <div class="col-12">
-                        <div id="aboutCollapse" class="collapse">
+                        <div id="aboutCollapse" class="collapse" data-parent="#accordion1">
 
                             <div class="row">
                                 <div id="aboutLeft" class="col-md-6 d-flex align-item-stretch">
@@ -69,263 +71,266 @@
 
                 <button class="btn btn-warning w-100" type="button" data-toggle="collapse" data-target="#creationsCollapse" aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4"><h4>CREATIONS</h4></button>
 
-                <div class="row">
-                    <div class="col-12">
-                        <div id="creationsCollapse" class="collapse">
 
-                            <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project1Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>PERSPEKTIV</h5></button>     
-                            <div class="row">
-                                <div class="col-12">
-                                    <div id="project1Collapse" class="collapse">
+                <div class="accordion" id="accordion2">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="creationsCollapse" class="collapse" data-parent="#accordion1">
+
+                                <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project1Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>PERSPEKTIV</h5></button>     
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div id="project1Collapse" class="collapse" data-parent="#accordion2">
 
 
-                                        <div class="row">
-                                            <div class="col-6 pr-0 d-flex align-item-stretch">
+                                            <div class="row">
+                                                <div class="col-6 pr-0 d-flex align-item-stretch">
 
-                                                <div class="card card-body">
-                                                    <p class="mb-0">LOGIC</p>
-                                                    <hr>
-                                                    <p>This project was an interactive mural search of Richmond, Va. (RVA). It exposed us to some great technoligies, including a different CSS framework: Materialze CSS. On the backend, Mark and Javonte knocked it out of the park. Using multiple APIs and data sources, they pulled together all the data needed to get the map view operational.</p>
-                                                    <hr>
-                                                    <p class="mb-0">Link to the repository: <a href="https://github.com/markdcross/perspektiv" target="_blank">PERSPEKTIV REPO</a></p>
-                                                    <hr>
-                                                    <p>Technologies Used:</p>
+                                                    <div class="card card-body">
+                                                        <p class="mb-0">LOGIC</p>
+                                                        <hr>
+                                                        <p>This project was an interactive mural search of Richmond, Va. (RVA). It exposed us to some great technoligies, including a different CSS framework: Materialze CSS. On the backend, Mark and Javonte knocked it out of the park. Using multiple APIs and data sources, they pulled together all the data needed to get the map view operational.</p>
+                                                        <hr>
+                                                        <p class="mb-0">Link to the repository: <a href="https://github.com/markdcross/perspektiv" target="_blank">PERSPEKTIV REPO</a></p>
+                                                        <hr>
+                                                        <p>Technologies Used:</p>
 
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
+                                                            </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/materializeLogo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/ajax-logo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/mapboxLogo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/leafletLogo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/googleapiLogo.png" width="100%">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/materializeLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/ajax-logo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/mapboxLogo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/leafletLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/googleapiLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
+
+                                                    
                                                 </div>
-
-                                                
-                                            </div>
-                                            <div class="col-6 pl-0 d-flex align-item-stretch">
-                                                <div class="card card-body text-right">
-                                                <p class="mb-0">CREATIVITY</p>
-                                                <hr>
-                                                    <div class="text-left">
-                                                        <p>Designed to be responsive, functional, and attractive, we had a wonderful time collaborating and coming together on this design. As part of the design team, Danny and I worked numerous hours getting the UI/UX just right.</p>
-                                                        <hr>
-                                                        <p class="mb-0">Link to live site: <a href="https://markdcross.github.io/perspektiv/" target="_blank">PERSPEKTIV</a></p>
-                                                        <hr>
-                                                        <img class="img-fluid" src="./assets/images/muralViewScreenshot.png" width="350px">
-                                                        <p>Mural View</p>
-                                                        <img class="img-fluid" src="./assets/images/mapViewScreenshot.png" width="350px">
-                                                        <p>Map View with selected mural</p>
-                                                        <img class="img-fluid" src="./assets/images/mapViewScreenshot2.png" width="350px">
-                                                        <p>Map View with local shop data</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project2Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>METEOR</h5></button>     
-                            <div class="row">
-                                <div class="col-12">
-                                    <div id="project2Collapse" class="collapse">
-
-
-                                        <div class="row">
-                                            <div class="col-6 pr-0 d-flex align-item-stretch">
-
-                                                <div class="card card-body">
-                                                    <p class="mb-0">LOGIC</p>
+                                                <div class="col-6 pl-0 d-flex align-item-stretch">
+                                                    <div class="card card-body text-right">
+                                                    <p class="mb-0">CREATIVITY</p>
                                                     <hr>
-                                                    <p>Meteor is a weather dashboard that allows a user to enter in a city name and receive updated weather conditions for that city. I really enjoyed digging the open weather map API. Aside from wrestling with the API calls, making the bar graphs functiona and tracking the local storage, was an adventure! Checkout the Readme file in the repository for more detailed information.</p>
-                                                    <hr>
-                                                    <p class="mb-0">Link to the repository: <a href="https://github.com/Bertodemus/Meteor-Weather-Dashboard" target="_blank">METEOR REPO</a></p>
-                                                    <hr>
-                                                    <p>Technologies Used:</p>
-
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                        <div class="text-left">
+                                                            <p>Designed to be responsive, functional, and attractive, we had a wonderful time collaborating and coming together on this design. As part of the design team, Danny and I worked numerous hours getting the UI/UX just right.</p>
+                                                            <hr>
+                                                            <p class="mb-0">Link to live site: <a href="https://markdcross.github.io/perspektiv/" target="_blank">PERSPEKTIV</a></p>
+                                                            <hr>
+                                                            <img class="img-fluid" src="./assets/images/muralViewScreenshot.png" width="350px">
+                                                            <p>Mural View</p>
+                                                            <img class="img-fluid" src="./assets/images/mapViewScreenshot.png" width="350px">
+                                                            <p>Map View with selected mural</p>
+                                                            <img class="img-fluid" src="./assets/images/mapViewScreenshot2.png" width="350px">
+                                                            <p>Map View with local shop data</p>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/bootstrap-logo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/ajax-logo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/OpenWeather-Logo.jpg" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/momentJS.jpg" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                </div>
-
-                                                
-                                            </div>
-                                            <div class="col-6 pl-0 d-flex align-item-stretch">
-                                                <div class="card card-body text-right">
-                                                <p class="mb-0">CREATIVITY</p>
-                                                <hr>
-                                                    <div class="text-left">
-                                                        <p>Laying out this design presented itself with some inetersting opportunities. I wanted to keep the layout clean and to the point.</p>
-                                                        <hr>
-                                                        <p class="mb-0">Link to live site: <a href="https://bertodemus.github.io/Meteor-Weather-Dashboard/" target="_blank">METEOR</a></p>
-                                                        <hr>
-                                                        <img class="img-fluid" src="./assets/images/meteorMain.png" width="350px">
-                                                        <p>Main view</p>
-                                                        <img class="img-fluid" src="./assets/images/meteor_search.png" width="350px">
-                                                        <p>Map view with search shown</p>
-                                                        <img class="img-fluid" src="./assets/images/meteor_searchstored.png" width="350px">
-                                                        <p>Search with stored searches</p>
-                                                        <img class="img-fluid" src="./assets/images/meteorUV.png" width="200px">
-                                                        <p>UV index chart</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project3Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>ORCHESTRATE</h5></button>     
-                            <div class="row">
-                                <div class="col-12">
-                                    <div id="project3Collapse" class="collapse">
+                                <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project2Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>METEOR</h5></button>     
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div id="project2Collapse" class="collapse" data-parent="#accordion2">
 
 
-                                        <div class="row">
-                                            <div class="col-6 pr-0 d-flex align-item-stretch">
+                                            <div class="row">
+                                                <div class="col-6 pr-0 d-flex align-item-stretch">
 
-                                                <div class="card card-body">
-                                                    <p class="mb-0">LOGIC</p>
-                                                    <hr>
-                                                    <p>This is a simple hour-by-hour work day scheduler. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. This project presented itself with some interesting opportunties regarding local storage, detecting time of day, and looping.</p>
-                                                    <hr>
-                                                    <p class="mb-0">Link to the repository: <a href="https://github.com/Bertodemus/Work-Day-Scheduler" target="_blank">ORCHESTRATE REPO</a></p>
-                                                    <hr>
-                                                    <p>Technologies Used:</p>
+                                                    <div class="card card-body">
+                                                        <p class="mb-0">LOGIC</p>
+                                                        <hr>
+                                                        <p>Meteor is a weather dashboard that allows a user to enter in a city name and receive updated weather conditions for that city. I really enjoyed digging the open weather map API. Aside from wrestling with the API calls, making the bar graphs functiona and tracking the local storage, was an adventure! Checkout the Readme file in the repository for more detailed information.</p>
+                                                        <hr>
+                                                        <p class="mb-0">Link to the repository: <a href="https://github.com/Bertodemus/Meteor-Weather-Dashboard" target="_blank">METEOR REPO</a></p>
+                                                        <hr>
+                                                        <p>Technologies Used:</p>
 
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
+                                                            </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
+                                                            </div>
                                                         </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/bootstrap-logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/ajax-logo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/OpenWeather-Logo.jpg" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/momentJS.jpg" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
                                                     </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/bootstrap-logo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/momentJS.jpg" width="100%">
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <img class="img-fluid" src="./assets/images/faLogo.png" width="100%">
-                                                        </div>
-                                                        <div class="col-6">
-                                                        </div>
-                                                    </div>
+
+                                                    
                                                 </div>
-
-                                                
-                                            </div>
-                                            <div class="col-6 pl-0 d-flex align-item-stretch">
-                                                <div class="card card-body text-right">
-                                                <p class="mb-0">CREATIVITY</p>
-                                                <hr>
-                                                    <div class="text-left">
-                                                        <p>This is another responsive design that was built to be simple and funtional. Upon your first visit, you are met with a modal that introduces you to the application and gives you a rundown of all the icons and how the software works. I really liked the color palette and the overall layout. </p>
-                                                        <hr>
-                                                        <p class="mb-0">Link to live site: <a href="https://bertodemus.github.io/Work-Day-Scheduler/" target="_blank">ORCHESTRATE</a></p>
-                                                        <hr>
-                                                        <img class="img-fluid" src="./assets/images/orchMainiwtihentry.png" width="350px">
-                                                        <p>Main view with an open entry</p>
-                                                        <img class="img-fluid" src="./assets/images/orchMainiwtihIndicator.png" width="350px">
-                                                        <p>Main view with indicator</p>
-                                                        <img class="img-fluid" src="./assets/images/orchMainExpanded.png" width="350px">
-                                                        <p>Expanded view</p>
-                                                        <img class="img-fluid" src="./assets/images/orchModal.png" width="350px">
-                                                        <p>Introductory modal</p>
+                                                <div class="col-6 pl-0 d-flex align-item-stretch">
+                                                    <div class="card card-body text-right">
+                                                    <p class="mb-0">CREATIVITY</p>
+                                                    <hr>
+                                                        <div class="text-left">
+                                                            <p>Laying out this design presented itself with some inetersting opportunities. I wanted to keep the layout clean and to the point.</p>
+                                                            <hr>
+                                                            <p class="mb-0">Link to live site: <a href="https://bertodemus.github.io/Meteor-Weather-Dashboard/" target="_blank">METEOR</a></p>
+                                                            <hr>
+                                                            <img class="img-fluid" src="./assets/images/meteorMain.png" width="350px">
+                                                            <p>Main view</p>
+                                                            <img class="img-fluid" src="./assets/images/meteor_search.png" width="350px">
+                                                            <p>Map view with search shown</p>
+                                                            <img class="img-fluid" src="./assets/images/meteor_searchstored.png" width="350px">
+                                                            <p>Search with stored searches</p>
+                                                            <img class="img-fluid" src="./assets/images/meteorUV.png" width="200px">
+                                                            <p>UV index chart</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                                <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#project3Collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h5>ORCHESTRATE</h5></button>     
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div id="project3Collapse" class="collapse" data-parent="#accordion2">
+
+
+                                            <div class="row">
+                                                <div class="col-6 pr-0 d-flex align-item-stretch">
+
+                                                    <div class="card card-body">
+                                                        <p class="mb-0">LOGIC</p>
+                                                        <hr>
+                                                        <p>This is a simple hour-by-hour work day scheduler. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. This project presented itself with some interesting opportunties regarding local storage, detecting time of day, and looping.</p>
+                                                        <hr>
+                                                        <p class="mb-0">Link to the repository: <a href="https://github.com/Bertodemus/Work-Day-Scheduler" target="_blank">ORCHESTRATE REPO</a></p>
+                                                        <hr>
+                                                        <p>Technologies Used:</p>
+
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/html5Logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/cssLogo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/JavaScript-logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/jqueryLogo.png" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/bootstrap-logo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/momentJS.jpg" width="100%">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="img-fluid" src="./assets/images/faLogo.png" width="100%">
+                                                            </div>
+                                                            <div class="col-6">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                </div>
+                                                <div class="col-6 pl-0 d-flex align-item-stretch">
+                                                    <div class="card card-body text-right">
+                                                    <p class="mb-0">CREATIVITY</p>
+                                                    <hr>
+                                                        <div class="text-left">
+                                                            <p>This is another responsive design that was built to be simple and funtional. Upon your first visit, you are met with a modal that introduces you to the application and gives you a rundown of all the icons and how the software works. I really liked the color palette and the overall layout. </p>
+                                                            <hr>
+                                                            <p class="mb-0">Link to live site: <a href="https://bertodemus.github.io/Work-Day-Scheduler/" target="_blank">ORCHESTRATE</a></p>
+                                                            <hr>
+                                                            <img class="img-fluid" src="./assets/images/orchMainiwtihentry.png" width="350px">
+                                                            <p>Main view with an open entry</p>
+                                                            <img class="img-fluid" src="./assets/images/orchMainiwtihIndicator.png" width="350px">
+                                                            <p>Main view with indicator</p>
+                                                            <img class="img-fluid" src="./assets/images/orchMainExpanded.png" width="350px">
+                                                            <p>Expanded view</p>
+                                                            <img class="img-fluid" src="./assets/images/orchModal.png" width="350px">
+                                                            <p>Introductory modal</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div>    
 
             </div>
         </div>
@@ -337,7 +342,7 @@
             
                 <div class="row">
                     <div class="col-12">
-                        <div id="contactCollapse" class="collapse">
+                        <div id="contactCollapse" class="collapse" data-parent="#accordion1">
 
                             <div class="row">
                                 <div id="contactLeft" class="col-6 d-flex align-item-stretch">
@@ -388,7 +393,8 @@
                 </div>
 
             </div>
-        </div> 
+        </div>
+    </div> 
 
     <!-- Links to script files -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
