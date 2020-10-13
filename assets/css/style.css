@@ -144,5 +144,8 @@ body {
         padding-left: 15px;
     }
 
+    p {
+        font-size: 0.75rem;
+    }
 
 }
