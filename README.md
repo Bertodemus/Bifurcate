@@ -1,4 +1,5 @@
 ![head image](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/headerImage.png)<br>
+## Bifurcate
 An overhaul of my portfolio featuring my current work. The page is divided into the left side and the right side. The division represents both halves of the brain.
 Left = logic & Right = Creativity
 
@@ -38,3 +39,7 @@ Left = logic & Right = Creativity
 <img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/aboutView.png" width="600">
 <img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/portView.png" height="800">
 <img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/contactView.png" width="600">
+
+## Contact Me
+
+* roberto@robertorubet.com
