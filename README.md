@@ -34,8 +34,8 @@ Left = logic & Right = Creativity
 
 ### Screenshots
 
-![Main view](https://github.com/Bertodemus/Meteor-Weather-Dashboard/blob/master/images/Main.png)
-![Search view](https://github.com/Bertodemus/Meteor-Weather-Dashboard/blob/master/images/Main_search.png)
-![Search view with stored items](https://github.com/Bertodemus/Meteor-Weather-Dashboard/blob/master/images/Search.png)
-![UV chart view](https://github.com/Bertodemus/Meteor-Weather-Dashboard/blob/master/images/UV.png)
+![Main view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/mainView.png)
+![about view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/aboutView.png)
+![Portfolio view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/portView.png)
+![Contact view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/contactView.png)
 
