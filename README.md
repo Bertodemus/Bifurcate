@@ -1,5 +1,5 @@
-![logo](https://github.com/Bertodemus/Meteor-Weather-Dashboard/blob/master/images/Logo.png)<br>
-An overhaul of my portfolio featuring my current work. The page is divide into the left side and the right side. The division represents both halves of the brain.
+![head image](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/headerImage.png)<br>
+An overhaul of my portfolio featuring my current work. The page is divided into the left side and the right side. The division represents both halves of the brain.
 Left = logic & Right = Creativity
 
 ## Link
