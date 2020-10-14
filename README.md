@@ -34,8 +34,7 @@ Left = logic & Right = Creativity
 
 ### Screenshots
 
-![Main view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/mainView.png)
-![about view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/aboutView.png)
-![Portfolio view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/portView.png)
-![Contact view](https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/contactView.png)
-
+<img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/mainView.png" width="600">
+<img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/aboutView.png" width="600">
+<img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/portView.png" height="800">
+<img src="https://github.com/Bertodemus/Bifurcate/blob/main/assets/images/contactView.png" width="600">
