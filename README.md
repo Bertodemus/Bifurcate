@@ -10,7 +10,7 @@ Left = logic & Right = Creativity
 
 * Portfolio design consists of: `index.html`, `style.css`, and `bootstrap.css`
 * Bootstrap 4 was utilized to create the layout
-* I created all of the illustrated element, consisting of the flowers and my self portrait
+* I created all of the illustrated elements, consisting of the flowers and my self portrait
 
 ## Application Description
 
@@ -31,7 +31,8 @@ Left = logic & Right = Creativity
 
 ## Bonus Features
 
-* Hand drawn elements
+* Hand drawn elements by BERTO! (me)
+[My artwork](http://www.robertorubet.com/)
 
 ### Screenshots
 
